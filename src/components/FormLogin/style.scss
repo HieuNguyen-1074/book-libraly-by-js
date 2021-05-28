@@ -1,0 +1,18 @@
+@import "../../assets/style/mixi.scss";
+@import "../../assets/style/valiable.scss";
+
+.formlogin {
+    width: 100%;
+
+    h1 {
+        text-align: center;
+    }
+    margin: 0 !important;
+    input {
+        width: 100%;
+    }
+    &__bottom {
+        margin-top: 2rem;
+        @include displaySet(space-between, center, nowrap, false);
+    }
+}

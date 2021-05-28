@@ -1,0 +1,20 @@
+.linkb {
+  margin: 2rem auto;
+  margin-top: 3rem;
+  max-width: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.linkb a {
+  width: 12%;
+  padding: 0.4rem 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.linkb a img {
+  width: 100%;
+}

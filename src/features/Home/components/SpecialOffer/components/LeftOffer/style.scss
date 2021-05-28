@@ -1,0 +1,36 @@
+@import "../../../../../../assets/style/valiable.scss";
+
+.offer__left {
+    align-self: start;
+    h1 {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        color: $colorMain;
+    }
+    h2 {
+        font-size: 1.6rem;
+
+        color: rgba($color: $blackColor, $alpha: 0.4);
+    }
+    h3 {
+        text-transform: capitalize;
+        font-size: 2rem;
+    }
+    button {
+        text-transform: uppercase;
+        margin-top: 0.6rem;
+        padding: 0.5rem 1.3rem;
+        background: $colorMain;
+        color: aliceblue;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background: $blackColor;
+        }
+    }
+}

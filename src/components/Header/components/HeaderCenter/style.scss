@@ -1,0 +1,62 @@
+@import "../../../../assets/style/mixi.scss";
+@import "../../../../assets/style/valiable.scss";
+
+.header__center {
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    &--logo {
+        width: 150px;
+    }
+
+    @include displaySet(space-between, center, nowrap, false);
+
+    &--right {
+        text-transform: capitalize;
+        @include displaySet(space-between, center, nowrap, false);
+
+        .help {
+            @include displaySet(center, center, nowrap, false);
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    &--form {
+        border: 1px solid rgba($color: $blackColor, $alpha: 0.2);
+        border-radius: 4px;
+
+        margin-left: 2rem;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        @include displaySet(space-between, center, nowrap, false);
+
+        button {
+            height: 100%;
+            padding: 0.4rem 1rem;
+            border: none;
+
+            background: $colorMain;
+
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+
+            color: $colorW;
+            font-size: 1.2rem;
+
+            svg {
+                margin-top: -0.3rem;
+            }
+        }
+        input[type="text"] {
+            font-size: 1.2rem;
+            padding: 0.3rem 1.4rem;
+            border: none;
+        }
+    }
+}

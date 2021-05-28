@@ -1,0 +1,44 @@
+@import "../../../../../../assets/style/mixi.scss";
+@import "../../../../../../assets/style/valiable.scss";
+
+.cart__list--pay {
+    width: 100%;
+    border-left: 1px solid;
+    padding: 1.5rem;
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    & > h1 {
+        text-align: center;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid rgba($color: $blackColor, $alpha: 0.3);
+    }
+    button {
+        margin-top: 2rem;
+        text-transform: uppercase;
+
+        padding: 0.5rem 1.3rem;
+        background: $colorMain;
+        color: aliceblue;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background: $blackColor;
+        }
+    }
+    &-top {
+        padding: 1rem 1rem;
+        padding-top: 2rem;
+        @include displaySet(space-between, center, nowrap, false);
+    }
+}
+
+form {
+    width: 40%;
+}

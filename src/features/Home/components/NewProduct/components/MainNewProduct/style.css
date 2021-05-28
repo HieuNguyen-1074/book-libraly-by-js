@@ -1,0 +1,12 @@
+.mainnewproduct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.mainnewproduct > img {
+  width: 35%;
+  height: 100%;
+}

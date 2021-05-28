@@ -1,0 +1,10 @@
+@import "../../../../../../assets/style/mixi.scss";
+
+.mainnewproduct {
+    @include displaySet(space-between, center, nowrap, false);
+
+    & > img {
+        width: 35%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+@import "../../assets/style/mixi.scss";
+
+.user {
+    margin-right: 2rem;
+
+    & > div:nth-of-type(1) {
+        @include displaySet(stretch, center, nowrap, false);
+        img {
+            width: 20px;
+        }
+        p {
+            margin: 0;
+            margin-left: 0.4rem;
+        }
+    }
+}

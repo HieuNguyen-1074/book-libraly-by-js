@@ -1,0 +1,54 @@
+@import "../../../../assets/style/mixi.scss";
+@import "../../../../assets/style/valiable.scss";
+
+.subscribe {
+    margin: 2rem auto;
+    margin-top: 3rem;
+    max-width: 60rem;
+    padding: 0 3rem;
+    background: rgba($color: $blackColor, $alpha: 0.1);
+    & .container {
+        // padding: 3rem 0rem;
+        height: 30vh;
+        @include displaySet(center, center, nowrap, false);
+    }
+    &__left {
+        margin-right: 5rem;
+        h1 {
+            font-size: 1.5rem;
+        }
+        p {
+            color: rgba($color: $blackColor, $alpha: 0.3);
+        }
+    }
+    &__right {
+        &--form {
+            @include displaySet(center, center, nowrap, false);
+            input[type="text"] {
+                height: 100%;
+                padding: 0.45rem 1rem;
+                padding-bottom: 0.5rem;
+                font-size: 1.1rem;
+                margin-right: 0.2rem;
+                border: 1px solid rgba($color: $blackColor, $alpha: 0.3);
+            }
+            button {
+                text-transform: uppercase;
+
+                padding: 0.5rem 1.3rem;
+                background: $colorMain;
+                color: aliceblue;
+                border: none;
+                transition: all 0.3s ease-in-out;
+                -webkit-transition: all 0.3s ease-in-out;
+                -moz-transition: all 0.3s ease-in-out;
+                -ms-transition: all 0.3s ease-in-out;
+                -o-transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    background: $blackColor;
+                }
+            }
+        }
+    }
+}

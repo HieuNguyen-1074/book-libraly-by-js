@@ -1,0 +1,23 @@
+.footer {
+  margin: 2rem auto;
+  margin-top: 3rem;
+  max-width: 60rem;
+}
+
+.footer .footertop {
+  margin: 2rem auto;
+  margin-top: 3rem;
+  max-width: 60rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.footer .footertop a {
+  padding-top: 0.2rem;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  color: black;
+}

@@ -1,0 +1,36 @@
+@import "../../../../../../assets/style/valiable.scss";
+.wrapper__right {
+    margin-left: 7rem;
+    width: 400px;
+    position: relative;
+
+    & .slick-prev,
+    .slick-next {
+        top: unset !important;
+        bottom: -2rem !important;
+        background-color: $colorMain !important;
+        width: 30px;
+        height: 30px;
+        padding: 0.2rem;
+        polygon {
+            fill: $colorW !important;
+        }
+        &:hover {
+            background-color: $blackColor !important;
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+        }
+    }
+
+    & .slick-prev {
+        left: unset !important;
+        right: 2.3rem !important;
+    }
+    & .slick-next {
+        left: unset !important;
+        right: 0 !important;
+    }
+}

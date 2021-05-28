@@ -1,0 +1,10 @@
+.decroration {
+  margin: 0 auto;
+  margin-top: 3rem;
+  max-width: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}

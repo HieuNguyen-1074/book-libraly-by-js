@@ -1,0 +1,21 @@
+@import "../../assets/style/mixi.scss";
+@import "../../assets/style/valiable.scss";
+.footer {
+    margin: 2rem auto;
+    margin-top: 3rem;
+    max-width: 60rem;
+    .footertop {
+        margin: 2rem auto;
+        margin-top: 3rem;
+        max-width: 60rem;
+
+        @include displaySet(space-between, start, nowrap, false);
+        a {
+            padding-top: 0.2rem;
+
+            text-transform: capitalize;
+            font-size: 1.1rem;
+            color: $blackColor;
+        }
+    }
+}

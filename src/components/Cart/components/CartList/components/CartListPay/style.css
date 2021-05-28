@@ -1,0 +1,48 @@
+.cart__list--pay {
+  width: 100%;
+  border-left: 1px solid;
+  padding: 1.5rem;
+}
+
+.cart__list--pay h1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.cart__list--pay > h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.cart__list--pay button {
+  margin-top: 2rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1.3rem;
+  background: #ed6c63;
+  color: aliceblue;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.cart__list--pay button:hover {
+  background: black;
+}
+
+.cart__list--pay-top {
+  padding: 1rem 1rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+form {
+  width: 40%;
+}

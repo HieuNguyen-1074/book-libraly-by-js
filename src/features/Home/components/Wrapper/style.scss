@@ -1,0 +1,8 @@
+@import "../../../../assets/style/mixi.scss";
+
+.wrapper {
+    margin-top: 4rem;
+    @include displaySet(center, center, nowrap, false);
+
+    
+}

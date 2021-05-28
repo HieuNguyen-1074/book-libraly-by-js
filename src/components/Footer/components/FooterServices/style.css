@@ -1,0 +1,25 @@
+.footer__services {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.footer__services h1 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.footer__services h1 a {
+  padding-top: 0.2rem;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.footer__services--list a {
+  display: block;
+  margin-top: 0.3rem;
+  text-decoration: none !important;
+}

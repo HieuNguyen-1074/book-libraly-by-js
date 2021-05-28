@@ -1,0 +1,45 @@
+@import "../../../../../../assets/style/mixi.scss";
+@import "../../../../../../assets/style/valiable.scss";
+
+.cart__list--item {
+    margin-right: 2rem;
+    padding: 0 1rem;
+
+    padding-top: 1rem;
+
+    h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    @include displaySet(space-between, start, nowrap, false);
+    & > div {
+        margin-left: 2rem;
+    }
+    &-infor {
+        margin-right: auto;
+        margin-left: 0 !important;
+        @include displaySet(stretch, stretch, nowrap, false);
+        img {
+            width: 60px !important;
+        }
+        &-main {
+            padding-left: 1rem;
+            button {
+                background: $colorMain;
+                color: $colorW;
+            }
+        }
+    }
+    &-quality {
+        &-main {
+            @include displaySet(stretch, center, nowrap, false);
+            svg {
+                margin: 0 0.2rem;
+                cursor: pointer;
+                &:nth-of-type(2) {
+                    margin-top: -6px;
+                }
+            }
+        }
+    }
+}
